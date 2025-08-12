@@ -109,6 +109,5 @@ Web apps requiring secure authentication.
 
 Projects that need multi-role access (Admin/User).
 
-Learning purposes for PHP + MySQL authentication best practices.
 
-If you’d like, I can also redesign the UI in modern, responsive style so your authentication system looks like a premium SaaS login portal instead of a plain HTML form. That will make it visually attractive and portfolio-ready.
+
