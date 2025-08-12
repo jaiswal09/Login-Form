@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #c2dee6, #0072ff);
+    color: rgba(0, 0, 0, 0.918);
+
+}
+
+.container{
+   margin: 0 15px
+}
+
+.form-box{
+
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(188, 61, 150, 0.1);
+    display: none;
+    
+}
+
+.form-box.active{
+    display: block;
+}
+h2{
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+input, select{
+
+    width: 100%;
+    padding: 12px;
+    background: #ccc;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    color:rgba(20, 3, 3, 0.95);
+    margin-bottom: 10px;
+
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    background: #4712e5;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+button:hover{
+    background: #3b0bbd;
+}
+
+p{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+p a{
+    color: #4712e5;
+    text-decoration: none;
+    transition: 0.3s;
+}
+p a:hover{
+    text-decoration: underline;
+    color: #e312a5;
+}
+.error-message {
+    padding: 12px;
+    background-color: #f8d7da;
+    border-radius: 6px;
+    color: red;
+
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+span{
+    color: #e312a5;
+}
+
+.box{
+    font-size: 22px;
+}
+.box button{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px;
+}
